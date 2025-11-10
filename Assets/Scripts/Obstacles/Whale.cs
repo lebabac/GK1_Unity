@@ -51,6 +51,7 @@ public class Whale : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            GameManager.Instance.AddScore(5);
             Destroy(gameObject); // cá voi chết
             // TODO: bạn có thể spawn explosion prefab ở đây
         }

@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
-  moveSpeedMultiplier: 1
+  moveSpeedMultiplier: 1.5
   hitMaterial: {fileID: 0}
 --- !u!95 &360925936109467921
 Animator:
